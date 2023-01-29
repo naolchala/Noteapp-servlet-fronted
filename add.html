@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home - NoteApp</title>
+		<link rel="stylesheet" href="fonts.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="BoxIcons/boxicons.css" />
+	</head>
+	<body>
+		<nav class="navbar">
+			<h1>MyNotebook</h1>
+			<div class="profile">
+				<div class="info">
+					<h2>John Doe</h2>
+					<span>johndoe@gmail.com</span>
+				</div>
+				<button class="logout-btn">
+					<i class="bx bx-log-out bx-flip-horizontal"></i>
+				</button>
+			</div>
+		</nav>
+		<main class="add-container">
+			<form>
+				<div class="input-field">
+					<label for="title">Title</label>
+					<input type="text" name="title" id="title" />
+				</div>
+				<div class="input-field" style="flex: 1">
+					<label for="content">Content</label>
+					<textarea name="content" id="content" rows="15"></textarea>
+				</div>
+				<button class="save-btn">Save</button>
+				<a href="home.html" class="cancel-btn">Cancel</a>
+			</form>
+		</main>
+	</body>
+</html>
